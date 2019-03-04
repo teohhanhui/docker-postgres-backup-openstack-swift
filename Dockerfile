@@ -25,7 +25,7 @@ RUN set -eux; \
 	\
 	openstack --version
 
-ARG GO_CRON_VERSION=0.0.7
+ARG GO_CRON_VERSION=0.0.6
 RUN set -eux; \
 	apk add --no-cache --virtual .fetch-deps \
 		wget \
